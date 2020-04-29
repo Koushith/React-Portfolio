@@ -8,7 +8,7 @@ const NavBar = () => {
     >
       <div className='container'>
         <a className='navbar-brand js-scroll-trigger' href='#page-top'>
-          Start Bootstrap
+          Koushith
         </a>
         <button
           className='navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded'
