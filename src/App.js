@@ -1,15 +1,8 @@
 import React from 'react';
 import './style.css';
-import Button from './Button';
-
+import NavBar from './components/NavBar';
 const App = () => {
-  return (
-    <div>
-      <h1 style={{ textAlign: 'center' }}>Hello Aliens</h1>
-      <Button title='App Store' />
-      <Button title='Play Store' />
-    </div>
-  );
+  return <NavBar />;
 };
 
 export default App;
