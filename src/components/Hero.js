@@ -1,28 +1,12 @@
-import React from 'react';
-import avataaars from '../img/avataaars.svg';
+import React from "react"
+import Image from "gatsby-image"
+import { Link } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
+import SocialLinks from "../constants/socialLinks"
+// ...GatsbyImageSharpFluid
 
 const Hero = () => {
-  return (
-    <header className='masthead bg-primary text-white text-center'>
-      <div className='container d-flex align-items-center flex-column'>
-        <img className='masthead-avatar mb-5' src={avataaars} alt='' />
-        {/* <!-- Masthead Heading--> */}
-        <h1 className='masthead-heading text-uppercase mb-0'>Koushith Amin</h1>
-        {/* <!-- Icon Divider--> */}
-        <div className='divider-custom divider-light'>
-          <div className='divider-custom-line'></div>
-          <div className='divider-custom-icon'>
-            <i className='fas fa-star'></i>
-          </div>
-          <div className='divider-custom-line'></div>
-        </div>
-        {/* <!-- Masthead Subheading--> */}
-        <p className='masthead-subheading font-weight-light mb-0'>
-          Graphic Artist - Web Designer - Illustrator
-        </p>
-      </div>
-    </header>
-  );
-};
+  return <h2>hero component</h2>
+}
 
-export default Hero;
+export default Hero
